@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="flexcontainermain">
+
+        <div id="imgcontainer">
+            
+            <img class="imgitem" src="assets/leafs.jpg" alt="">
+            <div id="logocard">
+                <p id ="testtext">LOGO GOES HERE</p>
+            </div>
+
+        </div>
+
+        <div id="formcontainer">
+            
+            <div id ="formheader" class ="formitem">
+                <p id="headtext">This is not a real online service! You knpw you need something like this in your life to help you realize your deepest
+                    dreams. Sign up <i>now</i> to get started. </p>
+                <p id="subheadtext">You <i>know</i> you want to. </p>
+            </div>
+            
+
+            <div id="formcard">
+
+                
+                <div id ="forminput1">
+                    <p class="form1">Lets Do this</p>
+                    <form class ="create-account"action="POST">
+                        <div class ="form1">
+                            <label for="firstname">First Name</label>
+                            <input type="text" name="firstname">
+                            
+                        </div>
+                        <div class="form1">
+                            <label for="email">Email</label>
+                            <input type="email" name="email">
+                        </div>
+                        <div class ="form1">
+                            <label for="password">Password</label>
+                            <input type="password" name="password">
+                        </div>
+                    </form>
+                    
+                    <!-- <p>Firstname</p>
+                    <p>Email</p>
+                    <p>password</p> -->
+                </div>
+
+                <!-- <form action="POST">  
+
+                </form>  -->
+                <div id ="forminput2">
+                    <form class ="create-account"action="">
+                        <div class ="form1">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" name="lastname">
+                        </div>
+                        <div class="form1">
+                            <label for="phonenumber">Phone Number</label>
+                            <input type="tel" name="phonenumber">
+                        </div>
+                        <div class ="form1">
+                            <label for="confirmpassword">Password</label>
+                            <input type="password" name="confirmpassword">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+
+
+            <div id="formfooter" class="formitem">
+                <button type="submit" form="create-account"id ="footersubmit" class="footeritem">Create Account</button>
+               <p id ="footertext" class="footeritem">Already have an acount? <a id="login"href="">Log in</a></p>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    
+    <script src="script.js"> </script>
+</body>
+</html>
